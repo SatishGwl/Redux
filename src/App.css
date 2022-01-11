@@ -6,6 +6,48 @@
   height: 40vmin;
   pointer-events: none;
 }
+.add-to-cart{
+  color:red;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+/**/
+.btn-wrapper button {
+  background-color: red;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+.text-wrapper span {
+  font-size: 15px;
+}
+
+.cart-wrapper {
+  height: 150px;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  /* margin-left: 10px; */
+}
+.img-wrapper img{
+  /* width: 87px; */
+  height: 100px;
+  margin-top: -10px;
+}
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+button{
+  box-shadow: #000 0px 1px 5px;
+}
+/**/
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
