@@ -1,14 +1,15 @@
 import React from 'react';
-import User from './User';
+// import User from './User';
 import HomeContainer from './components/containers/HomeContainer'
+import HeaderContainer from './components/containers/HeaderContainer'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1><HomeContainer/></h1>
-      
+      <HeaderContainer/>
+      <HomeContainer/>
     </div>
   );
 }

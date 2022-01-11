@@ -12,14 +12,33 @@
   right: 1%;
   top: 1%;
 }
+.add-to-cart span{
+  position: absolute;
+  color: #fff;
+  background-color: red;
+  padding: 4px;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+}
 
 /**/
-.btn-wrapper button {
+.add-cart-btn {
   background-color: red;
   border: 0;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
+}
+.remove-cart-btn{
+  background-color: purple;
+  margin-top: 10px;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
 }
 .text-wrapper span {
   font-size: 15px;
